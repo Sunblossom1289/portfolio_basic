@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+    height:100%;
+    width:100%;
+}
+
+#nav{
+    /* background-color: rgb(218, 88, 88); */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:6px;
+    padding:10px 30px;
+}
+#nav h3{
+    background-color: black;
+    color: azure;
+    padding: 13px 17px;
+    font-size: 14px;
+    margin-left: 3px;
+    border-radius: 30%;
+}
+#intro{
+    height:45%;
+    width:100%;
+    /* background-color: beige; */
+    padding: 20px 50px;
+   
+}
+#intro h1{
+font-size: 90px;
+line-height: 90px;
+letter-spacing: 13px;
+font-display:initial;
+}
+
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+#place h3 ,#place h4{
+    color: rgb(15, 10, 7);
+    font-size:19px ;
+    font-weight: 9px;
+}
+#img{
+    margin-top: 15px;
+    height:230%;
+    width:100%;
+    /* background-color: rgb(239, 168, 75); */
+    background-image: url(https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+  background-size: cover;
+  /* margin-bottom: 40px; */
+}
+#about{
+    height:95%;
+    width:100%;
+    /* background-color: rgb(139, 108, 69); */
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:30px 20px;
+}
+#about h2{
+    /* background-color: rgb(193, 21, 21); */
+    width:55%;
+    height:100%;
+    font-size: 57px;
+    line-height: 65px;
+    /* letter-spacing: 1px; */
+   font-weight: 550;
+}
+#about-2{
+    width:40%;
+    height:100%;
+    /* background-color: rgb(34, 44, 194); */
+border-left:2px solid black;
+padding:0 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* cross axis matlab align items wali axis aur main mtlb justify wali interchange hogyi ek type se ,,so space between main axis ko diya taki we get desired results */
+}
+#about-2  h3{
+    font-size:30px ;
+    font-weight: 500;
+
+}
+
+   
+   /* background-color: blueviolet;  */
+
+
+#icon i{
+    color:white;
+    background-color: black;
+    padding: 9px;
+    font-size:25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#work{
+    margin-top: 45px;
+    height: 55%;
+    width:100%;
+    border-top:2px solid black;
+    display: flex;
+    padding:0 50px;
+    margin-bottom: 9px;
+  
+}
+
+#work1{
+    width:40%;
+    height:100%;
+display: flex;
+justify-content: space-between;
+
+padding: 20px 23px;
+
+
+} 
+#work1 h3{
+
+    font-size: 22px;
+}
+
+#work1 i{
+   font-size: 25px; 
+}
+
+#work2{
+height: 100%;
+width:70%;
+/* background-color: brown; */
+padding :0 60px;
+}
+
+.work2-part{
+    /* background-color:blue; */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:50px 0;
+
+}
+
+.work2-part:nth-child(1){
+    /* background-color: rgb(181, 73, 19); */
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+ 
+
+}
+
+ .work2-part:nth-child(2){
+    border-right: 2px solid black;
+ }
+
+
+
+
+.work2-part .sub{
+    width:50%;
+    height:100%;
+}
+.work2-part .sub:nth-child(1){
+    border-right: 2px solid black;
+
+}
+
+.work2-part .sub:nth-child(2){
+   padding-left: 6px;
+    
+}
+
+.work2-part .sub h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.work2-part .sub p{
+    font-size: 13px;
+    color: rgb(44, 42, 42);
+    padding: 20px;
+}
